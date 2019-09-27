@@ -1,0 +1,30 @@
+{
+  "name": "wdio-lambdatest-service",
+  "version": "1.0.0",
+  "description": "WebdriverIO service that provides a better integration into LambdaTest",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "webdriver",
+    "wdio",
+    "wdio-service",
+    "wdio-plugin",
+    "lambdatest"
+  ],
+  "author": "Gareth Leonard",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "@lambdatest/node-tunnel": "^1.0.5",
+    "@wdio/logger": "^5.13.2"
+  }
+}
